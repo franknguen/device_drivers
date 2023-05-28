@@ -514,6 +514,7 @@ static int __init oled_i2c_driver_init(void)
 static void __exit oled_i2c_driver_exit(void)
 {
     pr_info("\n@FRK: going to remove...");
+    
     /* unregister the driver from kernel */ 
     i2c_del_driver(&oled_i2c_driver);
 
