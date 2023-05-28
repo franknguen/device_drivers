@@ -1,5 +1,5 @@
 
-obj-m := oled_i2c_driver.o
+obj-m := []_driver.o
 
 KDIR = /lib/modules/$(shell uname -r)/build
 
